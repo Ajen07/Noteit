@@ -1,0 +1,13 @@
+form{
+    width: 30%;
+}
+label{
+    text-align: center;
+    width: 80%;
+    margin: 0;
+}
+input{
+    height: 2rem;
+    width: 60%;
+
+}

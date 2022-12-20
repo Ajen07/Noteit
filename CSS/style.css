@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.hd-img{
+    width: 50px;
+    height: auto;
+}
+.theme-change{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.hero-img{
+    width: 40%;
+}
+body{
+    background-color: rgb(45, 44, 44);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   /*  background-color: rgb(245, 245, 207); */
+   background-color: black;
+   color: rgb(248, 248, 156);
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    gap: 1rem;
+    /* color: rgb(139, 139, 13); */
+    color: rgb(248, 248, 156);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    gap: 3rem;
+    margin-right: 2rem;
+}
+.main{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    gap: 4rem;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.hero-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    /* color: rgb(101, 101, 20); */
+    color: rgb(248, 248, 156);
+}
+.hover{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    /* color: rgb(139, 139, 13) ; */
+    color: #f8f89c;
+}
+.hover:hover{
+    /* background-color:rgb(139, 139, 13) ;
+    color: white; */
+    color: black;
+    background-color:  rgb(248, 248, 156);
+}
+/* .nav:last-child:hover{
+    color: black;
+    background-color:  rgb(246, 246, 0);
+} */
+.signup{
+    text-align: center;
+    width: 30%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: black;
+    background-color:  rgb(248, 248, 156);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+}
+.signup:hover{
+    color: black;
+    background-color:  #f6f600;
+}
